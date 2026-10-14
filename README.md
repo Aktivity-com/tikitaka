@@ -42,3 +42,7 @@ La jornada, los horarios, las confirmaciones, los árbitros y las incidencias so
 ## Navegación y CRM
 
 Orden: Dashboard, Incidencias, Partidos, Confirmaciones, Equipos, Jugadores, Árbitros, Competiciones, Instalaciones, CRM, Comunicaciones e Informes. Partidos reúne Lista y Calendario. Árbitros reúne Directorio y Asignaciones. Se retiraron la etiqueta del espacio de operaciones y el botón Ver jornada. CRM se sitúa entre Instalaciones y Comunicaciones y permite añadir equipos del catálogo, editar etapas, próximas acciones y notas guardadas en el navegador. Los datos iniciales de seguimiento son simulados. Los enlaces antiguos a Calendario y Asignaciones siguen funcionando.
+
+## Gestor de proyectos
+
+Proyectos aparece debajo de CRM. Permite crear proyectos y tareas, organizar tarjetas en Pendiente / En curso / En revisión / Completado, arrastrar tarjetas o cambiar su estado desde la ficha, asignar responsables, fechas y prioridades, editar descripciones, añadir subtareas y comentarios, buscar y exportar los proyectos en JSON. Los datos iniciales son simulados. El estado se guarda en localStorage por navegador; esta demo no tiene sincronización multiusuario, notificaciones reales ni importación de Trello.
