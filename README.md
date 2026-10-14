@@ -46,3 +46,7 @@ Orden: Dashboard, Incidencias, Partidos, Confirmaciones, Equipos, Jugadores, Ár
 ## Gestor de proyectos
 
 Proyectos aparece debajo de CRM. Permite crear proyectos y tareas, organizar tarjetas en Pendiente / En curso / En revisión / Completado, arrastrar tarjetas o cambiar su estado desde la ficha, asignar responsables, fechas y prioridades, editar descripciones, añadir subtareas y comentarios, buscar y exportar los proyectos en JSON. Los datos iniciales son simulados. El estado se guarda en localStorage por navegador; esta demo no tiene sincronización multiusuario, notificaciones reales ni importación de Trello.
+
+## Documentación
+
+Documentación aparece debajo de Proyectos. Incluye buscador en títulos y contenido, categorías, páginas editables, creación de páginas, vínculos a secciones y exportación JSON. Los ejemplos son Protocolo de incidencias, Checklist de preparación de jornada y Guía operativa de Vallvidrera, pendientes de validación por Tiki Taka. Incidencias enlaza al protocolo e Instalaciones a la guía de Vallvidrera. Las páginas se guardan por navegador en localStorage, sin sincronización multiusuario.
