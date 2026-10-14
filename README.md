@@ -54,3 +54,16 @@ Documentación aparece debajo de Proyectos. Incluye buscador en títulos y conte
 ## Identidad visual
 
 El logo proporcionado por el usuario se usa en la cabecera del menú lateral y como icono de la pestaña. La imagen original se conserva en public/logo.jpg.
+
+
+## Web corporativa y acceso de jugadores
+
+- `/`: portada pública con cuatro ligas, siete instalaciones, fotografías y patrocinadores enlazados desde la web oficial de Tiki Taka.
+- `/ligas/futbol-7`, `/ligas/futbol-5`, `/ligas/empresas`, `/ligas/medios`: información y solicitud de contacto.
+- `/acceso-jugadores`: acceso demo de Iñaki Villalba, SAD Taxicio, grupo 4547 ORO Jueves Vallvidrera.
+- `/competiciones`: calendario, resultados, próximos partidos, plantilla propia, clasificación y ranking del grupo. El servidor comprueba una cookie de demo y proporciona únicamente el conjunto fijo de datos de este equipo/grupo; no acepta selección de grupo desde el cliente. Es una demostración pública, no autenticación de producción.
+- `/operaciones`: conserva Tiki Taka OS. Los antiguos enlaces `/#Dashboard` y otras secciones se redirigen aquí.
+
+El formulario recoge nombre, teléfono, email y liga, y prepara un correo a `inscripciones@tikitakabcn.com`; no envía ni almacena solicitudes en un servidor. Calendario, resultados y clasificación del portal son simulados. La plantilla y el ranking provienen de la captura pública de Apuntamelo del 14/10/2026. Las cuentas reales, la autorización privada y el envío de formularios requieren servicios de producción antes del lanzamiento.
+
+Validación: build de producción, revisión ESLint y recorrido en navegador de portada, imágenes, cuatro ligas, acceso/cierre de sesión, seis vistas, parámetros de grupo manipulados, origen de peticiones, enlaces antiguos y adaptación móvil.
