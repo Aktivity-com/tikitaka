@@ -1,7 +1,7 @@
 export type Match={id:string;home:string;away:string;city:string;sport:string;venue:string;court:string;time:string;league:string;homeOk:boolean;awayOk:boolean;referee:string};
 export const seed:Match[]=[
 {id:'TT-101',home:'SAD Taxicio',away:'Fear the Buffalos',city:'Barcelona',sport:'Fútbol 7',venue:'Mpal. Vallvidrera (F7)',court:'Campo 1',time:'18:00',league:'ORO · Jueves · Vallvidrera',homeOk:true,awayOk:false,referee:''},
-{id:'TT-102',home:'Inter de tu Mami',away:'Stakazo Team',city:'Barcelona',sport:'Fútbol 7',venue:'CEM Inter de tu Mami',court:'Pista 2',time:'19:00',league:'ORO · Jueves · Vallvidrera',homeOk:true,awayOk:true,referee:'Marc Soler'},
+{id:'TT-102',home:'Inter de tu Mami',away:'Stakazo Team',city:'Barcelona',sport:'Fútbol 7',venue:'Mpal. Vallvidrera (F7)',court:'Campo 2',time:'19:00',league:'ORO · Jueves · Vallvidrera',homeOk:true,awayOk:true,referee:'Marc Soler'},
 {id:'TT-103',home:'Ruzafa Sport',away:'Turia Club',city:'Valencia',sport:'Fútbol sala',venue:'Polideportivo Benimaclet',court:'Pista 1',time:'19:30',league:'Expansión ficticia · Valencia',homeOk:false,awayOk:false,referee:''},
 {id:'TT-104',home:'Chamberí FC',away:'Retiro Athletic',city:'Madrid',sport:'Fútbol 7',venue:'CDM La Elipa',court:'Campo 2',time:'20:00',league:'Expansión ficticia · Madrid',homeOk:true,awayOk:true,referee:'Diego Martín'},
 {id:'TT-105',home:'AC Calor',away:'Llesca FC',city:'Barcelona',sport:'Fútbol 7',venue:'Mpal. Vallvidrera (F7)',court:'Campo 2',time:'20:30',league:'ORO · Jueves · Vallvidrera',homeOk:true,awayOk:true,referee:''},

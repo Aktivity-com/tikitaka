@@ -47,3 +47,4 @@ next-env.d.ts
 /players-preview.png
 /verify-catalogue.cjs
 /finish-catalogue.cjs
+/dedupe-catalogue.cjs
