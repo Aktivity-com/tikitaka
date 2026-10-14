@@ -69,3 +69,5 @@ El formulario recoge nombre, teléfono, email y liga, y prepara un correo a `ins
 Validación: build de producción, revisión ESLint y recorrido en navegador de portada, imágenes, cuatro ligas, acceso/cierre de sesión, seis vistas, parámetros de grupo manipulados, origen de peticiones, enlaces antiguos y adaptación móvil.
 
 Los enlaces externos a páginas de Tiki Taka y Apuntamelo se han retirado de la interfaz pública y de operaciones. Se mantienen los datos importados y la navegación interna.
+
+La página de Ligas Empresas incluye una sección con los logos de Adidas, Amazon, Deloitte, Skello y TwoJeys aportados por el usuario, adaptada a escritorio y móvil.
