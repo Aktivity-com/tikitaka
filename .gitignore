@@ -43,3 +43,7 @@ next-env.d.ts
 /dashboard.png
 /mobile.png
 /verify.cjs
+
+/players-preview.png
+/verify-catalogue.cjs
+/finish-catalogue.cjs

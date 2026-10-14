@@ -1,0 +1,1383 @@
+{
+  "source": "https://apuntamelo.com/organizacion/4/competiciones",
+  "capturedAt": "2026-10-14",
+  "installations": [
+    {
+      "id": "231",
+      "name": "Mpal. Vallvidrera (F7)",
+      "url": "https://apuntamelo.com/modalidades/4/231/0",
+      "divisions": [
+        {
+          "name": "ORO",
+          "url": "https://apuntamelo.com/temporadas/4/231/0/939/0",
+          "groups": [
+            {
+              "id": "4544",
+              "name": "Lunes",
+              "url": "https://apuntamelo.com/grupo/4544",
+              "teams": [
+                {
+                  "id": "32352",
+                  "name": "Folls del Bosc"
+                },
+                {
+                  "id": "32351",
+                  "name": "The Sheeshies Club"
+                },
+                {
+                  "id": "32355",
+                  "name": "MB United"
+                },
+                {
+                  "id": "32354",
+                  "name": "Deportivo Agrandado"
+                },
+                {
+                  "id": "32356",
+                  "name": "Bebesiktas FC"
+                },
+                {
+                  "id": "32353",
+                  "name": "Sanka Fc"
+                },
+                {
+                  "id": "32357",
+                  "name": "Real Barriles Bp"
+                }
+              ]
+            },
+            {
+              "id": "4546",
+              "name": "Miércoles",
+              "url": "https://apuntamelo.com/grupo/4546",
+              "teams": [
+                {
+                  "id": "32474",
+                  "name": "Fatuleros FC"
+                },
+                {
+                  "id": "32476",
+                  "name": "UD Para Vernardo Silva"
+                },
+                {
+                  "id": "32472",
+                  "name": "Cucos FC"
+                },
+                {
+                  "id": "32475",
+                  "name": "Racing Cerveceros"
+                },
+                {
+                  "id": "32471",
+                  "name": "Sugar Daddy's"
+                },
+                {
+                  "id": "32470",
+                  "name": "UIC Barcelona"
+                },
+                {
+                  "id": "32473",
+                  "name": "Los Cuervos"
+                }
+              ]
+            },
+            {
+              "id": "4547",
+              "name": "Jueves",
+              "url": "https://apuntamelo.com/grupo/4547",
+              "teams": [
+                {
+                  "id": "31518",
+                  "name": "SAD Taxicio"
+                },
+                {
+                  "id": "31479",
+                  "name": "Fear the Buffalos"
+                },
+                {
+                  "id": "31486",
+                  "name": "Inter de tu Mami"
+                },
+                {
+                  "id": "31485",
+                  "name": "Stakazo Team"
+                },
+                {
+                  "id": "31483",
+                  "name": "AC Calor"
+                },
+                {
+                  "id": "31481",
+                  "name": "Llesca FC"
+                },
+                {
+                  "id": "31480",
+                  "name": "Makakinhos Fc"
+                },
+                {
+                  "id": "31484",
+                  "name": "Sportium de Gijón"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ORO-PLATA",
+          "url": "https://apuntamelo.com/temporadas/4/231/0/945/0",
+          "groups": [
+            {
+              "id": "4573",
+              "name": "Martes",
+              "url": "https://apuntamelo.com/grupo/4573",
+              "teams": [
+                {
+                  "id": "32459",
+                  "name": "Triton Fc"
+                },
+                {
+                  "id": "32458",
+                  "name": "RCD Sant Jordi"
+                },
+                {
+                  "id": "32464",
+                  "name": "Al-Niffar FC"
+                },
+                {
+                  "id": "32462",
+                  "name": "WEST HAMMERHEADS"
+                },
+                {
+                  "id": "32465",
+                  "name": "Boston Balompié"
+                },
+                {
+                  "id": "32468",
+                  "name": "Manchester Piti FC"
+                },
+                {
+                  "id": "32461",
+                  "name": "Cubatasaray FC"
+                },
+                {
+                  "id": "32463",
+                  "name": "Los Chopped"
+                },
+                {
+                  "id": "32680",
+                  "name": "Real Mandril"
+                },
+                {
+                  "id": "32467",
+                  "name": "Beer United"
+                },
+                {
+                  "id": "32952",
+                  "name": "La Raboneta"
+                },
+                {
+                  "id": "33272",
+                  "name": "Deportivo Vaqueria"
+                }
+              ]
+            },
+            {
+              "id": "4574",
+              "name": "Viernes",
+              "url": "https://apuntamelo.com/grupo/4574",
+              "teams": [
+                {
+                  "id": "32292",
+                  "name": "Recreativo la Soca"
+                },
+                {
+                  "id": "32295",
+                  "name": "Tinder de Milán"
+                },
+                {
+                  "id": "32296",
+                  "name": "AllstarsMK"
+                },
+                {
+                  "id": "32298",
+                  "name": "Jokers"
+                },
+                {
+                  "id": "32289",
+                  "name": "Butaneros Fc"
+                },
+                {
+                  "id": "32294",
+                  "name": "SantgreBoys"
+                },
+                {
+                  "id": "32297",
+                  "name": "Celta Desvirgo"
+                },
+                {
+                  "id": "32291",
+                  "name": "Monta Puercas"
+                },
+                {
+                  "id": "32293",
+                  "name": "Reevers FC"
+                },
+                {
+                  "id": "33317",
+                  "name": "Los Cachorros"
+                },
+                {
+                  "id": "32286",
+                  "name": "Oporró FC"
+                },
+                {
+                  "id": "32288",
+                  "name": "Oxidados FC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PLATA",
+          "url": "https://apuntamelo.com/temporadas/4/231/0/944/0",
+          "groups": [
+            {
+              "id": "4575",
+              "name": "Lunes",
+              "url": "https://apuntamelo.com/grupo/4575",
+              "teams": [
+                {
+                  "id": "32362",
+                  "name": "Drink Team"
+                },
+                {
+                  "id": "32360",
+                  "name": "PTC FC"
+                },
+                {
+                  "id": "32366",
+                  "name": "Los Antiguos FC"
+                },
+                {
+                  "id": "32365",
+                  "name": "Cafe Tebi FC"
+                },
+                {
+                  "id": "32364",
+                  "name": "Calviçao UE"
+                },
+                {
+                  "id": "32361",
+                  "name": "Vasco de Farra"
+                },
+                {
+                  "id": "32359",
+                  "name": "Tengofutbol Fc"
+                }
+              ]
+            },
+            {
+              "id": "4576",
+              "name": "Martes",
+              "url": "https://apuntamelo.com/grupo/4576",
+              "teams": []
+            },
+            {
+              "id": "4577",
+              "name": "Miércoles",
+              "url": "https://apuntamelo.com/grupo/4577",
+              "teams": [
+                {
+                  "id": "32481",
+                  "name": "Gallegos FC"
+                },
+                {
+                  "id": "32478",
+                  "name": "UPFolles"
+                },
+                {
+                  "id": "32477",
+                  "name": "Jäger Leverkusen"
+                },
+                {
+                  "id": "32479",
+                  "name": "Inter Guinardo"
+                },
+                {
+                  "id": "32480",
+                  "name": "Titos FC"
+                },
+                {
+                  "id": "32953",
+                  "name": "Taya Vetas FC"
+                },
+                {
+                  "id": "32482",
+                  "name": "Vodka Juniors"
+                },
+                {
+                  "id": "32484",
+                  "name": "CB Bobtistas"
+                }
+              ]
+            },
+            {
+              "id": "4578",
+              "name": "Jueves",
+              "url": "https://apuntamelo.com/grupo/4578",
+              "teams": [
+                {
+                  "id": "31492",
+                  "name": "Celta de Vicio"
+                },
+                {
+                  "id": "31489",
+                  "name": "Ac Frio"
+                },
+                {
+                  "id": "32210",
+                  "name": "Rayo Batallanos"
+                },
+                {
+                  "id": "33023",
+                  "name": "Paradise La Jonquera"
+                },
+                {
+                  "id": "31490",
+                  "name": "Makai FC"
+                },
+                {
+                  "id": "31493",
+                  "name": "Inafuma Y Beben"
+                },
+                {
+                  "id": "33024",
+                  "name": "Gladiators Fc"
+                },
+                {
+                  "id": "32283",
+                  "name": "Manela FC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BRONCE",
+          "url": "https://apuntamelo.com/temporadas/4/231/0/966/0",
+          "groups": [
+            {
+              "id": "4593",
+              "name": "LUNES VALLVIDRERA",
+              "url": "https://apuntamelo.com/grupo/4593",
+              "teams": [
+                {
+                  "id": "32350",
+                  "name": "Tacos FC"
+                },
+                {
+                  "id": "32349",
+                  "name": "Al Khasino FC"
+                },
+                {
+                  "id": "32347",
+                  "name": "Fc 22"
+                },
+                {
+                  "id": "32345",
+                  "name": "Languis FC"
+                },
+                {
+                  "id": "32346",
+                  "name": "K-DUCADOS"
+                },
+                {
+                  "id": "32348",
+                  "name": "Keko Jones FC"
+                },
+                {
+                  "id": "32344",
+                  "name": "Se Mamo FC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AMISTOSOS",
+          "url": "https://apuntamelo.com/temporadas/4/231/0/969/0",
+          "groups": [
+            {
+              "id": "4473",
+              "name": "Amistosos Pre-Temporada",
+              "url": "https://apuntamelo.com/grupo/4473",
+              "teams": [
+                {
+                  "id": "31429",
+                  "name": "Tosco FC"
+                },
+                {
+                  "id": "30853",
+                  "name": "Manoleta FC"
+                },
+                {
+                  "id": "31431",
+                  "name": "Socratetes"
+                },
+                {
+                  "id": "31430",
+                  "name": "Espeteros FC"
+                },
+                {
+                  "id": "32206",
+                  "name": "Deportivo Agrandado"
+                },
+                {
+                  "id": "32207",
+                  "name": "Real Barriles Bp"
+                },
+                {
+                  "id": "30854",
+                  "name": "The Red FC"
+                },
+                {
+                  "id": "32205",
+                  "name": "Nuñesdemisión"
+                },
+                {
+                  "id": "31432",
+                  "name": "San Alberto Magno FC"
+                },
+                {
+                  "id": "32290",
+                  "name": "Folls del Bosc"
+                }
+              ]
+            },
+            {
+              "id": "4626",
+              "name": "Amistosos",
+              "url": "https://apuntamelo.com/grupo/4626",
+              "teams": [
+                {
+                  "id": "32958",
+                  "name": "Triton Fc"
+                },
+                {
+                  "id": "32957",
+                  "name": "Los Chopped"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    {
+      "id": "232",
+      "name": "Colegio Alemán (F7)",
+      "url": "https://apuntamelo.com/modalidades/4/232/0",
+      "divisions": [
+        {
+          "name": "PLATA",
+          "url": "https://apuntamelo.com/temporadas/4/232/0/947/0",
+          "groups": [
+            {
+              "id": "4550",
+              "name": "Lunes",
+              "url": "https://apuntamelo.com/grupo/4550",
+              "teams": [
+                {
+                  "id": "32311",
+                  "name": "Drunk Team FC"
+                },
+                {
+                  "id": "32310",
+                  "name": "Vall d'Hebron"
+                },
+                {
+                  "id": "32313",
+                  "name": "Ley Seca"
+                },
+                {
+                  "id": "32314",
+                  "name": "Papas FC"
+                },
+                {
+                  "id": "32315",
+                  "name": "Geseme Fc"
+                },
+                {
+                  "id": "32316",
+                  "name": "Templarios"
+                },
+                {
+                  "id": "32312",
+                  "name": "Nuñesdemisión"
+                }
+              ]
+            },
+            {
+              "id": "4551",
+              "name": "Martes",
+              "url": "https://apuntamelo.com/grupo/4551",
+              "teams": [
+                {
+                  "id": "32447",
+                  "name": "Socratetes"
+                },
+                {
+                  "id": "32450",
+                  "name": "Palmeiras"
+                },
+                {
+                  "id": "32448",
+                  "name": "Nochingan Forest"
+                },
+                {
+                  "id": "32446",
+                  "name": "Tosco FC"
+                },
+                {
+                  "id": "32444",
+                  "name": "Slazenger"
+                },
+                {
+                  "id": "32445",
+                  "name": "San Alberto Magno FC"
+                },
+                {
+                  "id": "32449",
+                  "name": "Diavlas de Montepinar"
+                }
+              ]
+            },
+            {
+              "id": "4552",
+              "name": "Miércoles",
+              "url": "https://apuntamelo.com/grupo/4552",
+              "teams": [
+                {
+                  "id": "32498",
+                  "name": "OLYMPIC DE LITRON"
+                },
+                {
+                  "id": "32496",
+                  "name": "FC Sant Injust"
+                },
+                {
+                  "id": "32494",
+                  "name": "Casi FC"
+                },
+                {
+                  "id": "32499",
+                  "name": "Poco Toque Poca Chica"
+                },
+                {
+                  "id": "32500",
+                  "name": "Birrareal Fc"
+                },
+                {
+                  "id": "32497",
+                  "name": "Espeteros FC"
+                },
+                {
+                  "id": "32495",
+                  "name": "Eternas Promesas FC"
+                }
+              ]
+            },
+            {
+              "id": "4553",
+              "name": "Jueves",
+              "url": "https://apuntamelo.com/grupo/4553",
+              "teams": [
+                {
+                  "id": "31510",
+                  "name": "After Hours FC"
+                },
+                {
+                  "id": "31507",
+                  "name": "Atletico Kstf"
+                },
+                {
+                  "id": "31508",
+                  "name": "DSB Deutsche Schule Barcelona"
+                },
+                {
+                  "id": "31504",
+                  "name": "Arreplegats FC"
+                },
+                {
+                  "id": "31505",
+                  "name": "Perros Fc"
+                },
+                {
+                  "id": "31509",
+                  "name": "Vaguettes Fc"
+                },
+                {
+                  "id": "31506",
+                  "name": "Baix United"
+                }
+              ]
+            },
+            {
+              "id": "4554",
+              "name": "Viernes",
+              "url": "https://apuntamelo.com/grupo/4554",
+              "teams": [
+                {
+                  "id": "31514",
+                  "name": "Pitis FC"
+                },
+                {
+                  "id": "31512",
+                  "name": "Pantera Rosa"
+                },
+                {
+                  "id": "31517",
+                  "name": "Rabodo FC"
+                },
+                {
+                  "id": "31515",
+                  "name": "Comando Bling"
+                },
+                {
+                  "id": "31516",
+                  "name": "Ambizurdos FC"
+                },
+                {
+                  "id": "31511",
+                  "name": "Morrison's Sultans"
+                },
+                {
+                  "id": "31513",
+                  "name": "Black Bulls FC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AMISTOSOS",
+          "url": "https://apuntamelo.com/temporadas/4/232/0/970/0",
+          "groups": [
+            {
+              "id": "4632",
+              "name": "Amistosos",
+              "url": "https://apuntamelo.com/grupo/4632",
+              "teams": []
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    {
+      "id": "233",
+      "name": "Escola Garbí (F7)",
+      "url": "https://apuntamelo.com/modalidades/4/233/0",
+      "divisions": [
+        {
+          "name": "BRONCE",
+          "url": "https://apuntamelo.com/temporadas/4/233/0/948/0",
+          "groups": [
+            {
+              "id": "4555",
+              "name": "Lunes",
+              "url": "https://apuntamelo.com/grupo/4555",
+              "teams": [
+                {
+                  "id": "32327",
+                  "name": "Galactic Fc"
+                },
+                {
+                  "id": "32320",
+                  "name": "Barrileros Fc"
+                },
+                {
+                  "id": "32318",
+                  "name": "Inter de Mamis"
+                },
+                {
+                  "id": "32319",
+                  "name": "Atlético Becharios Fc"
+                },
+                {
+                  "id": "32322",
+                  "name": "Destilados & Asociados Fc"
+                },
+                {
+                  "id": "32324",
+                  "name": "Seu a la Palla"
+                },
+                {
+                  "id": "32326",
+                  "name": "Talleres de Contrachapado Jose Molina"
+                },
+                {
+                  "id": "32325",
+                  "name": "Real Furcia"
+                },
+                {
+                  "id": "32323",
+                  "name": "Mojonazos FC"
+                },
+                {
+                  "id": "32321",
+                  "name": "Jugamos en Casa"
+                }
+              ]
+            },
+            {
+              "id": "4556",
+              "name": "Martes",
+              "url": "https://apuntamelo.com/grupo/4556",
+              "teams": [
+                {
+                  "id": "32456",
+                  "name": "Stepma FC"
+                },
+                {
+                  "id": "32452",
+                  "name": "Juvindus"
+                },
+                {
+                  "id": "32451",
+                  "name": "TocaSuave FC"
+                },
+                {
+                  "id": "32454",
+                  "name": "Kerrys fc"
+                },
+                {
+                  "id": "32896",
+                  "name": "Atlético Michelin"
+                },
+                {
+                  "id": "32453",
+                  "name": "Nottingham Miedo FC"
+                },
+                {
+                  "id": "32457",
+                  "name": "Los Resbalados"
+                }
+              ]
+            },
+            {
+              "id": "4557",
+              "name": "Miércoles",
+              "url": "https://apuntamelo.com/grupo/4557",
+              "teams": [
+                {
+                  "id": "32507",
+                  "name": "Barri Sud Young Boys"
+                },
+                {
+                  "id": "32503",
+                  "name": "Escuadron Cromosoma"
+                },
+                {
+                  "id": "32508",
+                  "name": "Sólidos FC"
+                },
+                {
+                  "id": "32502",
+                  "name": "Watergang Fc"
+                },
+                {
+                  "id": "32506",
+                  "name": "Globeros CF"
+                },
+                {
+                  "id": "32501",
+                  "name": "Afilados Fc"
+                },
+                {
+                  "id": "32505",
+                  "name": "Petardas FC"
+                },
+                {
+                  "id": "32509",
+                  "name": "Sarkies RD"
+                },
+                {
+                  "id": "32510",
+                  "name": "Ke Kesitos FC"
+                },
+                {
+                  "id": "32504",
+                  "name": "Patos FC"
+                }
+              ]
+            },
+            {
+              "id": "4558",
+              "name": "Jueves",
+              "url": "https://apuntamelo.com/grupo/4558",
+              "teams": [
+                {
+                  "id": "31527",
+                  "name": "Sant Antoni FC"
+                },
+                {
+                  "id": "31524",
+                  "name": "Culeros FC"
+                },
+                {
+                  "id": "31519",
+                  "name": "Manoleta FC"
+                },
+                {
+                  "id": "31521",
+                  "name": "Atlético Ñete"
+                },
+                {
+                  "id": "31523",
+                  "name": "Fc Bufas"
+                },
+                {
+                  "id": "31522",
+                  "name": "FC Valors"
+                },
+                {
+                  "id": "31529",
+                  "name": "Johnny X"
+                },
+                {
+                  "id": "31525",
+                  "name": "The Red FC"
+                },
+                {
+                  "id": "31526",
+                  "name": "Elecnor"
+                },
+                {
+                  "id": "31520",
+                  "name": "Bayer Levelchusten"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AMISTOSOS",
+          "url": "https://apuntamelo.com/temporadas/4/233/0/971/0",
+          "groups": [
+            {
+              "id": "4633",
+              "name": "Amistosos",
+              "url": "https://apuntamelo.com/grupo/4633",
+              "teams": []
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    {
+      "id": "234",
+      "name": "Betania Patmos (F5)",
+      "url": "https://apuntamelo.com/modalidades/4/234/0",
+      "divisions": [
+        {
+          "name": "ORO",
+          "url": "https://apuntamelo.com/temporadas/4/234/0/362/0",
+          "groups": [
+            {
+              "id": "4560",
+              "name": "LUNES",
+              "url": "https://apuntamelo.com/grupo/4560",
+              "teams": [
+                {
+                  "id": "32333",
+                  "name": "Mix Retirados FC"
+                },
+                {
+                  "id": "32334",
+                  "name": "Golden Team"
+                },
+                {
+                  "id": "32331",
+                  "name": "Mary Ward"
+                },
+                {
+                  "id": "32335",
+                  "name": "Conejos FC"
+                },
+                {
+                  "id": "32330",
+                  "name": "Castell FC"
+                },
+                {
+                  "id": "32332",
+                  "name": "Kodi&Co"
+                },
+                {
+                  "id": "32329",
+                  "name": "Nosotros Mismos"
+                },
+                {
+                  "id": "32328",
+                  "name": "Vermuteros 1876"
+                }
+              ]
+            },
+            {
+              "id": "4562",
+              "name": "MIÉRCOLES",
+              "url": "https://apuntamelo.com/grupo/4562",
+              "teams": [
+                {
+                  "id": "32513",
+                  "name": "Head Soccer FC"
+                },
+                {
+                  "id": "32514",
+                  "name": "Moños Rojos FC"
+                },
+                {
+                  "id": "32511",
+                  "name": "UD Media Tics"
+                },
+                {
+                  "id": "32512",
+                  "name": "Chavales Fc"
+                },
+                {
+                  "id": "33271",
+                  "name": "Nivel Executive"
+                },
+                {
+                  "id": "32960",
+                  "name": "Los Jabatos FC"
+                },
+                {
+                  "id": "33283",
+                  "name": "Gelatto FC"
+                },
+                {
+                  "id": "33699",
+                  "name": "Bomboclaat Fc"
+                }
+              ]
+            },
+            {
+              "id": "4563",
+              "name": "JUEVES",
+              "url": "https://apuntamelo.com/grupo/4563",
+              "teams": [
+                {
+                  "id": "31534",
+                  "name": "Werder"
+                },
+                {
+                  "id": "31532",
+                  "name": "Fútbol Serio"
+                },
+                {
+                  "id": "31535",
+                  "name": "El Tridentaso"
+                },
+                {
+                  "id": "33212",
+                  "name": "Cocoaso FC"
+                },
+                {
+                  "id": "32258",
+                  "name": "All in Stars"
+                },
+                {
+                  "id": "33312",
+                  "name": "Zika FC"
+                },
+                {
+                  "id": "31531",
+                  "name": "No Funciona"
+                },
+                {
+                  "id": "31533",
+                  "name": "Dorados FC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AMISTOSOS",
+          "url": "https://apuntamelo.com/temporadas/4/234/0/972/0",
+          "groups": [
+            {
+              "id": "4634",
+              "name": "Amistosos",
+              "url": "https://apuntamelo.com/grupo/4634",
+              "teams": [
+                {
+                  "id": "33143",
+                  "name": "Makakinhos Fc"
+                },
+                {
+                  "id": "33142",
+                  "name": "No Funciona"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    {
+      "id": "235",
+      "name": "Escola FEST (F5)",
+      "url": "https://apuntamelo.com/modalidades/4/235/0",
+      "divisions": [
+        {
+          "name": "ORO",
+          "url": "https://apuntamelo.com/temporadas/4/235/0/950/0",
+          "groups": [
+            {
+              "id": "4564",
+              "name": "Martes",
+              "url": "https://apuntamelo.com/grupo/4564",
+              "teams": [
+                {
+                  "id": "32435",
+                  "name": "Roure Legends"
+                },
+                {
+                  "id": "32438",
+                  "name": "Gaizkas Fc"
+                },
+                {
+                  "id": "32440",
+                  "name": "Tigrinhos Fc"
+                },
+                {
+                  "id": "32436",
+                  "name": "Descartes de Julio"
+                },
+                {
+                  "id": "32437",
+                  "name": "Tio Rafael"
+                },
+                {
+                  "id": "33213",
+                  "name": "Mi Gran Noche"
+                },
+                {
+                  "id": "32441",
+                  "name": "El Vecindario"
+                },
+                {
+                  "id": "33691",
+                  "name": "Bomboclaat Fc"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PLATA",
+          "url": "https://apuntamelo.com/temporadas/4/235/0/949/0",
+          "groups": [
+            {
+              "id": "4565",
+              "name": "Lunes",
+              "url": "https://apuntamelo.com/grupo/4565",
+              "teams": [
+                {
+                  "id": "32340",
+                  "name": "Team X"
+                },
+                {
+                  "id": "32682",
+                  "name": "Deportivo la Vergüenza"
+                },
+                {
+                  "id": "32336",
+                  "name": "Underdogs"
+                },
+                {
+                  "id": "32338",
+                  "name": "Pool Fc"
+                },
+                {
+                  "id": "32337",
+                  "name": "UD Aresketa"
+                },
+                {
+                  "id": "32343",
+                  "name": "Afb Motorsport"
+                },
+                {
+                  "id": "32339",
+                  "name": "Piturris FC"
+                }
+              ]
+            },
+            {
+              "id": "4566",
+              "name": "Jueves",
+              "url": "https://apuntamelo.com/grupo/4566",
+              "teams": [
+                {
+                  "id": "31536",
+                  "name": "Rayo Cayetano"
+                },
+                {
+                  "id": "31538",
+                  "name": "Coca JR"
+                },
+                {
+                  "id": "31539",
+                  "name": "Gnocchi All'Arrabiatta"
+                },
+                {
+                  "id": "31540",
+                  "name": "Vers Le Bas"
+                },
+                {
+                  "id": "31541",
+                  "name": "LA MANUELA TC"
+                },
+                {
+                  "id": "33020",
+                  "name": "SaraGoza FC"
+                },
+                {
+                  "id": "31537",
+                  "name": "Weather Now"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AMISTOSOS",
+          "url": "https://apuntamelo.com/temporadas/4/235/0/973/0",
+          "groups": [
+            {
+              "id": "4635",
+              "name": "Amistosos",
+              "url": "https://apuntamelo.com/grupo/4635",
+              "teams": []
+            }
+          ]
+        }
+      ],
+      "groups": []
+    },
+    {
+      "id": "236",
+      "name": "Futbol Empresas (Xaloc & Promosportive & Garbí )",
+      "url": "https://apuntamelo.com/modalidades/4/236/0",
+      "divisions": [],
+      "groups": [
+        {
+          "id": "4567",
+          "name": "ALPHA Lunes/Miercoles",
+          "url": "https://apuntamelo.com/grupo/4567",
+          "teams": [
+            {
+              "id": "33150",
+              "name": "Adidas FC"
+            },
+            {
+              "id": "33148",
+              "name": "Double Tap"
+            },
+            {
+              "id": "33151",
+              "name": "Konamigas FC"
+            },
+            {
+              "id": "33154",
+              "name": "SMART ACADEMY"
+            },
+            {
+              "id": "33149",
+              "name": "Amazon"
+            },
+            {
+              "id": "33147",
+              "name": "SII Group Spain"
+            },
+            {
+              "id": "33336",
+              "name": "Skello United"
+            },
+            {
+              "id": "33345",
+              "name": "TwoJeys"
+            },
+            {
+              "id": "33346",
+              "name": "Deloitte FSI"
+            },
+            {
+              "id": "33347",
+              "name": "Russell Bedford"
+            }
+          ]
+        },
+        {
+          "id": "4568",
+          "name": "BETA Martes",
+          "url": "https://apuntamelo.com/grupo/4568",
+          "teams": [
+            {
+              "id": "33008",
+              "name": "Click&Boat"
+            },
+            {
+              "id": "33010",
+              "name": "ISL Agency"
+            },
+            {
+              "id": "33012",
+              "name": "Deloitte Transactions"
+            },
+            {
+              "id": "33015",
+              "name": "Shark"
+            },
+            {
+              "id": "33014",
+              "name": "Deloitte Digital"
+            },
+            {
+              "id": "33016",
+              "name": "Tennium"
+            },
+            {
+              "id": "33009",
+              "name": "Pedrosa Lagos"
+            },
+            {
+              "id": "33011",
+              "name": "Equis"
+            },
+            {
+              "id": "33013",
+              "name": "Cotransa FC"
+            },
+            {
+              "id": "33017",
+              "name": "Supersonik"
+            }
+          ]
+        },
+        {
+          "id": "4636",
+          "name": "Amistosos",
+          "url": "https://apuntamelo.com/grupo/4636",
+          "teams": []
+        }
+      ]
+    },
+    {
+      "id": "237",
+      "name": "Futbol Media (Pabellón Mar Bella)",
+      "url": "https://apuntamelo.com/modalidades/4/237/0",
+      "divisions": [],
+      "groups": [
+        {
+          "id": "4570",
+          "name": "Futbol Media Split 1",
+          "url": "https://apuntamelo.com/grupo/4570",
+          "teams": [
+            {
+              "id": "33286",
+              "name": "Mundo Deportivo"
+            },
+            {
+              "id": "33285",
+              "name": "Sport"
+            },
+            {
+              "id": "33287",
+              "name": "Cadena Ser"
+            },
+            {
+              "id": "33288",
+              "name": "Ara 7"
+            },
+            {
+              "id": "33284",
+              "name": "Post United"
+            },
+            {
+              "id": "33289",
+              "name": "3Cat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "238",
+      "name": "Pabellón C. Alemán (F5)",
+      "url": "https://apuntamelo.com/modalidades/4/238/0",
+      "divisions": [
+        {
+          "name": "ORO-PLATA",
+          "url": "https://apuntamelo.com/temporadas/4/238/0/954/0",
+          "groups": [
+            {
+              "id": "4572",
+              "name": "Lunes",
+              "url": "https://apuntamelo.com/grupo/4572",
+              "teams": [
+                {
+                  "id": "32371",
+                  "name": "Singuerbeer"
+                },
+                {
+                  "id": "32367",
+                  "name": "Elevadores Alnomi"
+                },
+                {
+                  "id": "32372",
+                  "name": "Santakemola FC"
+                },
+                {
+                  "id": "32369",
+                  "name": "Cuajados F5"
+                },
+                {
+                  "id": "32368",
+                  "name": "Scrots FC"
+                },
+                {
+                  "id": "32370",
+                  "name": "Los Primos"
+                },
+                {
+                  "id": "33171",
+                  "name": "La Wawa FC"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AMISTOSOS",
+          "url": "https://apuntamelo.com/temporadas/4/238/0/975/0",
+          "groups": [
+            {
+              "id": "4637",
+              "name": "Amistosos",
+              "url": "https://apuntamelo.com/grupo/4637",
+              "teams": []
+            }
+          ]
+        }
+      ],
+      "groups": []
+    }
+  ]
+}
