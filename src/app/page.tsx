@@ -1,2 +1,2 @@
-import Operations from '@/components/operations';
-export default function Page(){return <Operations/>}
+import CorporateHome from '@/components/corporate-home';
+export default function Page(){return <CorporateHome/>}
