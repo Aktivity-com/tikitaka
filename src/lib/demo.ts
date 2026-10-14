@@ -1,0 +1,12 @@
+export type Match={id:string;home:string;away:string;city:string;sport:string;venue:string;court:string;time:string;league:string;homeOk:boolean;awayOk:boolean;referee:string};
+export const seed:Match[]=[
+{id:'TT-101',home:'Poblenou FC',away:'Gràcia United',city:'Barcelona',sport:'Fútbol 7',venue:'CEM Marbella',court:'Campo 1',time:'18:00',league:'Liga BCN · Grupo A',homeOk:true,awayOk:false,referee:''},
+{id:'TT-102',home:'Les Corts',away:'Diagonal Bulls',city:'Barcelona',sport:'Baloncesto',venue:'CEM Les Corts',court:'Pista 2',time:'19:00',league:'Basket BCN · Jornada 4',homeOk:true,awayOk:true,referee:'Marc Soler'},
+{id:'TT-103',home:'Ruzafa Sport',away:'Turia Club',city:'Valencia',sport:'Fútbol sala',venue:'Polideportivo Benimaclet',court:'Pista 1',time:'19:30',league:'Liga Valencia · Grupo B',homeOk:false,awayOk:false,referee:''},
+{id:'TT-104',home:'Chamberí FC',away:'Retiro Athletic',city:'Madrid',sport:'Fútbol 7',venue:'CDM La Elipa',court:'Campo 2',time:'20:00',league:'Liga Madrid · Grupo A',homeOk:true,awayOk:true,referee:'Diego Martín'},
+{id:'TT-105',home:'Eixample Stars',away:'Sants Club',city:'Barcelona',sport:'Fútbol 7',venue:'CEM Marbella',court:'Campo 2',time:'20:30',league:'Liga BCN · Grupo A',homeOk:true,awayOk:true,referee:''},
+{id:'TT-106',home:'Cabanyal',away:'Benimaclet BC',city:'Valencia',sport:'Baloncesto',venue:'Polideportivo Benimaclet',court:'Pista 2',time:'21:00',league:'Basket Valencia · Jornada 4',homeOk:true,awayOk:true,referee:'Lucía Torres'}];
+export const referees=[{name:'Marc Soler',city:'Barcelona',sports:['Baloncesto']},{name:'Anna Puig',city:'Barcelona',sports:['Fútbol 7']},{name:'Pau Ferrer',city:'Barcelona',sports:['Fútbol 7']},{name:'Lucía Torres',city:'Valencia',sports:['Baloncesto']},{name:'Carlos Vidal',city:'Valencia',sports:['Fútbol sala']},{name:'Diego Martín',city:'Madrid',sports:['Fútbol 7']}];
+export type Incident={id:string;match:string;title:string;priority:string;status:string;note:string};
+export const initialIncidents:Incident[]=[{id:'INC-01',match:'TT-101',title:'Iluminación del campo 1',priority:'Alta',status:'Abierta',note:''},{id:'INC-02',match:'TT-103',title:'Solicitud de cambio de equipación',priority:'Media',status:'En revisión',note:''}];
+export function conflicts(a:Match,b:Match){const minutes=(t:string)=>Number(t.split(':')[0])*60+Number(t.split(':')[1]);return a.id!==b.id&&Math.abs(minutes(a.time)-minutes(b.time))<90;}
