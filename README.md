@@ -58,7 +58,7 @@ El logo proporcionado por el usuario se usa en la cabecera del menú lateral y c
 
 ## Web corporativa y acceso de jugadores
 
-- `/`: portada pública con cuatro ligas, siete instalaciones, fotografías y patrocinadores enlazados desde la web oficial de Tiki Taka.
+- `/`: portada pública con cuatro ligas, siete instalaciones, fotografías y patrocinadores procedentes de la web oficial de Tiki Taka.
 - `/ligas/futbol-7`, `/ligas/futbol-5`, `/ligas/empresas`, `/ligas/medios`: información y solicitud de contacto.
 - `/acceso-jugadores`: acceso demo de Iñaki Villalba, SAD Taxicio, grupo 4547 ORO Jueves Vallvidrera.
 - `/competiciones`: calendario, resultados, próximos partidos, plantilla propia, clasificación y ranking del grupo. El servidor comprueba una cookie de demo y proporciona únicamente el conjunto fijo de datos de este equipo/grupo; no acepta selección de grupo desde el cliente. Es una demostración pública, no autenticación de producción.
@@ -67,3 +67,5 @@ El logo proporcionado por el usuario se usa en la cabecera del menú lateral y c
 El formulario recoge nombre, teléfono, email y liga, y prepara un correo a `inscripciones@tikitakabcn.com`; no envía ni almacena solicitudes en un servidor. Calendario, resultados y clasificación del portal son simulados. La plantilla y el ranking provienen de la captura pública de Apuntamelo del 14/10/2026. Las cuentas reales, la autorización privada y el envío de formularios requieren servicios de producción antes del lanzamiento.
 
 Validación: build de producción, revisión ESLint y recorrido en navegador de portada, imágenes, cuatro ligas, acceso/cierre de sesión, seis vistas, parámetros de grupo manipulados, origen de peticiones, enlaces antiguos y adaptación móvil.
+
+Los enlaces externos a páginas de Tiki Taka y Apuntamelo se han retirado de la interfaz pública y de operaciones. Se mantienen los datos importados y la navegación interna.
