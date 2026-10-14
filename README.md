@@ -50,3 +50,7 @@ Proyectos aparece debajo de CRM. Permite crear proyectos y tareas, organizar tar
 ## Documentación
 
 Documentación aparece debajo de Proyectos. Incluye buscador en títulos y contenido, categorías, páginas editables, creación de páginas, vínculos a secciones y exportación JSON. Los ejemplos son Protocolo de incidencias, Checklist de preparación de jornada y Guía operativa de Vallvidrera, pendientes de validación por Tiki Taka. Incidencias enlaza al protocolo e Instalaciones a la guía de Vallvidrera. Las páginas se guardan por navegador en localStorage, sin sincronización multiusuario.
+
+## Identidad visual
+
+El logo proporcionado por el usuario se usa en la cabecera del menú lateral y como icono de la pestaña. La imagen original se conserva en public/logo.jpg.
