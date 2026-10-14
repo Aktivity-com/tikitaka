@@ -4,13 +4,13 @@ export const demoRoster=[{"name":"Iñaki Villalba","dorsal":"#20","position":"ME
 export const demoRankings=[{"name":"Otger Peri","team":"Fear the Buffalos","goals":"6"},{"name":"Franc Oliver","team":"AC Calor","goals":"6"},{"name":"Iñaki Villalba","team":"SAD Taxicio","goals":"4"},{"name":"Gonzalo Perez","team":"Inter de tu Mami","goals":"4"},{"name":"Adria Casany","team":"Stakazo Team","goals":"4"},{"name":"Arnau Font","team":"Stakazo Team","goals":"4"},{"name":"Jordi Rodríguez","team":"SAD Taxicio","goals":"3"},{"name":"Marc Mora","team":"SAD Taxicio","goals":"3"},{"name":"Gil Canadell","team":"Stakazo Team","goals":"3"},{"name":"Jose Alvarez","team":"Llesca FC","goals":"3"},{"name":"Josep Geli","team":"SAD Taxicio","goals":"2"},{"name":"Gerard Martínez","team":"Llesca FC","goals":"2"},{"name":"David Fontal","team":"Inter de tu Mami","goals":"2"},{"name":"Carlos Monné","team":"SAD Taxicio","goals":"2"},{"name":"Bernat Ollé","team":"AC Calor","goals":"2"},{"name":"Jofre Sanjuán","team":"Inter de tu Mami","goals":"2"},{"name":"Daniel Jové","team":"AC Calor","goals":"2"},{"name":"Edwin Victoriano","team":"Stakazo Team","goals":"2"},{"name":"Martí Ballvé","team":"Inter de tu Mami","goals":"2"},{"name":"Pau Mata","team":"Sportium de Gijón","goals":"2"}];
 export const demoTeams=['SAD Taxicio','Fear the Buffalos','Inter de tu Mami','Stakazo Team','AC Calor','Llesca FC','Makakinhos Fc','Sportium de Gijón'];
 export const demoFixtures=[
-{date:'15 oct 2026',time:'18:00',home:'SAD Taxicio',away:'Fear the Buffalos',score:null},
-{date:'15 oct 2026',time:'19:00',home:'Inter de tu Mami',away:'Stakazo Team',score:null},
-{date:'15 oct 2026',time:'20:00',home:'AC Calor',away:'Llesca FC',score:null},
-{date:'15 oct 2026',time:'21:00',home:'Makakinhos Fc',away:'Sportium de Gijón',score:null},
-{date:'8 oct 2026',time:'18:00',home:'SAD Taxicio',away:'Inter de tu Mami',score:'3 – 2'},
-{date:'8 oct 2026',time:'19:00',home:'Fear the Buffalos',away:'AC Calor',score:'1 – 1'},
-{date:'8 oct 2026',time:'20:00',home:'Stakazo Team',away:'Makakinhos Fc',score:'2 – 0'},
-{date:'8 oct 2026',time:'21:00',home:'Llesca FC',away:'Sportium de Gijón',score:'0 – 2'}
+{kickoff:'2026-10-15T18:00:00+02:00',date:'15 oct 2026',time:'18:00',home:'SAD Taxicio',away:'Fear the Buffalos',score:null},
+{kickoff:'2026-10-15T19:00:00+02:00',date:'15 oct 2026',time:'19:00',home:'Inter de tu Mami',away:'Stakazo Team',score:null},
+{kickoff:'2026-10-15T20:00:00+02:00',date:'15 oct 2026',time:'20:00',home:'AC Calor',away:'Llesca FC',score:null},
+{kickoff:'2026-10-15T21:00:00+02:00',date:'15 oct 2026',time:'21:00',home:'Makakinhos Fc',away:'Sportium de Gijón',score:null},
+{kickoff:'2026-10-08T18:00:00+02:00',date:'8 oct 2026',time:'18:00',home:'SAD Taxicio',away:'Inter de tu Mami',score:'3 – 2'},
+{kickoff:'2026-10-08T19:00:00+02:00',date:'8 oct 2026',time:'19:00',home:'Fear the Buffalos',away:'AC Calor',score:'1 – 1'},
+{kickoff:'2026-10-08T20:00:00+02:00',date:'8 oct 2026',time:'20:00',home:'Stakazo Team',away:'Makakinhos Fc',score:'2 – 0'},
+{kickoff:'2026-10-08T21:00:00+02:00',date:'8 oct 2026',time:'21:00',home:'Llesca FC',away:'Sportium de Gijón',score:'0 – 2'}
 ];
 export const demoStandings=[{team:'SAD Taxicio',points:3,gf:3,ga:2},{team:'Stakazo Team',points:3,gf:2,ga:0},{team:'Sportium de Gijón',points:3,gf:2,ga:0},{team:'Fear the Buffalos',points:1,gf:1,ga:1},{team:'AC Calor',points:1,gf:1,ga:1},{team:'Inter de tu Mami',points:0,gf:2,ga:3},{team:'Makakinhos Fc',points:0,gf:0,ga:2},{team:'Llesca FC',points:0,gf:0,ga:2}].sort((a,b)=>b.points-a.points||(b.gf-b.ga)-(a.gf-a.ga));
