@@ -2,13 +2,14 @@
 import {useEffect,useState} from 'react';
 import {LayoutDashboard,CalendarDays,Goal,CheckCheck,UserRound,ArrowLeftRight,Flag,Trophy,Users,Building2,Mail,ChartNoAxesCombined,Bell,ArrowUpRight,ChevronRight,RotateCcw,Menu,X,SlidersHorizontal,Download,Search,Activity,Check,Plus} from 'lucide-react';
 import MatchCalendar from '@/components/match-calendar';
+import Projects from '@/components/projects';
 import CRM from '@/components/crm';
 import Catalogue from '@/components/catalogue';
 import {installations,sportFor} from '@/lib/catalog';
 import {Button} from '@/components/ui/button';
 import {seed,referees,initialIncidents,conflicts,type Match,type Incident} from '@/lib/demo';
-const sections=['Dashboard','Incidencias','Partidos','Confirmaciones','Equipos','Jugadores','Árbitros','Competiciones','Instalaciones','CRM','Comunicaciones','Informes'];
-const icons=[LayoutDashboard,Flag,Goal,CheckCheck,Users,UserRound,UserRound,Trophy,Building2,Users,Mail,ChartNoAxesCombined];
+const sections=['Dashboard','Incidencias','Partidos','Confirmaciones','Equipos','Jugadores','Árbitros','Competiciones','Instalaciones','CRM','Proyectos','Comunicaciones','Informes'];
+const icons=[LayoutDashboard,Flag,Goal,CheckCheck,Users,UserRound,UserRound,Trophy,Building2,Users,LayoutDashboard,Mail,ChartNoAxesCombined];
 export default function Operations(){
  const [crmRevision,setCrmRevision]=useState(0);
  const [refView,setRefView]=useState<'Directorio'|'Asignaciones'>('Directorio');
@@ -37,6 +38,7 @@ export default function Operations(){
  {section==='Incidencias'&&<section className="panel"><div className="panel-heading"><div><h2>Centro de incidencias</h2><p>Seguimiento, actuación y resolución</p></div></div>{scopedIncidents.map(i=><div className="incident" key={i.id}><span className={`badge ${i.priority==='Alta'?'red':'amber'}`}>{i.priority}</span><div><h3>{i.title}</h3><p>{i.id} · {i.match} · {matches.find(m=>m.id===i.match)?.venue}</p>{i.note&&<small>Resolución: {i.note}</small>}</div><span className={`badge ${i.status==='Resuelta'?'green':'blue'}`}>{i.status}</span><Button variant="outline" onClick={()=>{setActiveIncident(i);setResolution(i.note);}}>Abrir caso</Button></div>)}{!scopedIncidents.length&&<div className="empty">Sin incidencias en esta selección.</div>}</section>}
  {['Competiciones','Equipos','Instalaciones','Jugadores'].includes(section)&&<Catalogue key={`${section}-${city}-${sport}-${venue}`} section={section} city={city} sport={sport} venue={venue} onVenue={setVenue} onNavigate={navigate}/>}
  {section==='CRM'&&<CRM key={crmRevision}/>}
+ {section==='Proyectos'&&<Projects/>}
  {section==='Árbitros'&&refView==='Directorio'&&<div className="cards-grid">{referees.filter(r=>city==='Todas las ciudades'||r.city===city).filter(r=>sport==='Todos los deportes'||r.sports.includes(sport)).map(r=><section className="panel entity" key={r.name}><span className="person-avatar">{r.name.split(' ').map(n=>n[0]).join('')}</span><h2>{r.name}</h2><p>{r.city} · {r.sports.join(', ')}</p><span className="badge green">Disponible en la jornada</span><p>{matches.filter(m=>m.referee===r.name).length} partidos asignados</p><Button variant="outline" onClick={()=>navigate('Asignaciones')}>Ver asignaciones →</Button></section>)}</div>}
  {section==='Comunicaciones'&&<section className="panel"><div className="panel-heading"><div><h2>Bandeja de actividad</h2><p>Comunicaciones simuladas · No se envían mensajes reales</p></div><Button onClick={()=>log(`Recordatorio simulado a ${pending.reduce((n,m)=>n+Number(!m.homeOk)+Number(!m.awayOk),0)} equipos pendientes`)}>Simular recordatorio</Button></div><div className="activity">{messages.length?messages.slice().reverse().map((m,i)=><div key={i}><span className="activity-dot"/><div><b>{m}</b><small>Esta sesión · Simulación</small></div></div>):<div className="empty">Las confirmaciones, asignaciones y resoluciones aparecerán aquí.</div>}</div></section>}
  {section==='Informes'&&<section className="panel"><div className="panel-heading"><div><h2>Resumen operativo</h2><p>Exportación de los datos de la vista actual</p></div><Button onClick={download}><Download size={16}/>Exportar CSV</Button></div><div className="report"><h2>{filtered.filter(m=>m.homeOk&&m.awayOk&&m.referee).length} de {filtered.length} partidos confirmados y con árbitro</h2><p>{pending.length} pendientes de confirmación · {unassigned.length} sin árbitro · {open.length} incidencias abiertas</p></div>{rows(filtered)}</section>}
