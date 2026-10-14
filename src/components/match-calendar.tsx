@@ -1,0 +1,6 @@
+import {type Match,conflicts} from '@/lib/demo';
+export default function MatchCalendar({matches,onSelect}:{matches:Match[];onSelect:(match:Match)=>void}){
+ const venues=[...new Set(matches.map(m=>m.venue))];
+ if(!matches.length)return <div className="empty">No hay partidos con estos filtros.</div>;
+ return <div className="match-calendar"><div className="calendar-day"><b>Jueves, 15 de octubre de 2026</b><small>Jornada simulada · Pulsa un partido para gestionarlo</small></div><div className="calendar-columns">{venues.map(venue=><section className="calendar-lane" key={venue}><h3>{venue}</h3><small>{matches.find(m=>m.venue===venue)?.city}</small>{matches.filter(m=>m.venue===venue).sort((a,b)=>a.time.localeCompare(b.time)).map(m=>{const overlap=matches.some(other=>other.venue===m.venue&&other.court===m.court&&conflicts(other,m));return <button className="calendar-match" key={m.id} onClick={()=>onSelect(m)}><span className="calendar-time">{m.time} · {m.court}</span><strong>{m.home} <span className="versus">vs</span> {m.away}</strong><small>{m.sport} · {m.league}</small><span className={`badge ${m.homeOk&&m.awayOk?'green':'amber'}`}>{m.homeOk&&m.awayOk?'Confirmado':'Por confirmar'}</span><small>{m.referee||'Árbitro por asignar'}</small>{overlap&&<span className="badge red">Solapamiento de pista</span>}</button>;})}</section>)}</div></div>;
+}
