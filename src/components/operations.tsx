@@ -13,8 +13,8 @@ import Catalogue from '@/components/catalogue';
 import {installations,sportFor} from '@/lib/catalog';
 import {Button} from '@/components/ui/button';
 import {seed,referees,initialIncidents,conflicts,type Match,type Incident} from '@/lib/demo';
-const sections=['Dashboard','Incidencias','Partidos','Vídeos y clips','Confirmaciones','Equipos','Jugadores','Árbitros','Competiciones','Instalaciones','CRM','Proyectos','Documentación','Comunicaciones','Informes'];
-const icons=[LayoutDashboard,Flag,Goal,Video,CheckCheck,Users,UserRound,UserRound,Trophy,Building2,Users,LayoutDashboard,Building2,Mail,ChartNoAxesCombined];
+const sections=['Dashboard','Incidencias','Partidos','Confirmaciones','Equipos','Jugadores','Árbitros','Competiciones','Instalaciones','Vídeos y clips','CRM','Proyectos','Documentación','Comunicaciones','Informes'];
+const icons=[LayoutDashboard,Flag,Goal,CheckCheck,Users,UserRound,UserRound,Trophy,Building2,Video,Users,LayoutDashboard,Building2,Mail,ChartNoAxesCombined];
 export default function Operations(){
  const [docContext,setDocContext]=useState('');
  const [crmRevision,setCrmRevision]=useState(0);
