@@ -75,3 +75,5 @@ La página de Ligas Empresas incluye una sección con los logos de Adidas, Amazo
 La home utiliza una imagen generada de un equipo celebrando un título, con el trofeo sobre el césped y espacio oscuro para el titular. El archivo WebP local incluye encuadres adaptados a escritorio y móvil.
 
 Fútbol 5 incorpora un hero generado propio: equipo naranja y negro celebrando en un pabellón cubierto de fútbol sala, con trofeo en el suelo y encuadre adaptado a móvil.
+
+Liga de Medios utiliza una imagen generada de rueda de prensa con jugador ficticio, seis micrófonos de medios y photocall de Tiki Taka. El hero dispone de encuadres propios para escritorio y móvil.
