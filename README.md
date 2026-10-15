@@ -71,3 +71,5 @@ Validación: build de producción, revisión ESLint y recorrido en navegador de 
 Los enlaces externos a páginas de Tiki Taka y Apuntamelo se han retirado de la interfaz pública y de operaciones. Se mantienen los datos importados y la navegación interna.
 
 La página de Ligas Empresas incluye una sección con los logos de Adidas, Amazon, Deloitte, Skello y TwoJeys aportados por el usuario, adaptada a escritorio y móvil.
+
+La home utiliza una imagen generada de un equipo celebrando un título, con el trofeo sobre el césped y espacio oscuro para el titular. El archivo WebP local incluye encuadres adaptados a escritorio y móvil.
