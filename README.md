@@ -83,3 +83,7 @@ Fútbol 7 utiliza un hero generado con dos rivales disputando un balón sobre c�
 Liga Empresas utiliza un hero generado con cuatro compañeros vestidos con traje celebrando una victoria, con encuadres para escritorio y móvil y la sección de logos inmediatamente debajo.
 
 La selección de ligas de la home muestra cuatro tarjetas anchas en dos columnas, utiliza las imágenes generadas de los heroes de cada liga y prescinde de las etiquetas 07, 05, FE y FM. En móvil pasa a una columna.
+
+## Vista audiovisual de operaciones
+
+`/operaciones#Vídeos%20y%20clips` muestra una demostración visual del circuito de grabaciones, sincronización con el acta, clips y revisión, votaciones y rankings. Incluye acceso desde Dashboard, filtros de ciudad/deporte/instalación, cuatro grabaciones ficticias y cinco clips de muestra fechados el 08/10/2026. La navegación entre fichas funciona localmente; la reproducción, subida, generación, publicación y votación reales no están conectadas. Los controles de subida y publicación están desactivados. La imagen del reproductor es ilustrativa, no una grabación de los jugadores nombrados.
