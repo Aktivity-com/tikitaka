@@ -73,3 +73,5 @@ Los enlaces externos a páginas de Tiki Taka y Apuntamelo se han retirado de la 
 La página de Ligas Empresas incluye una sección con los logos de Adidas, Amazon, Deloitte, Skello y TwoJeys aportados por el usuario, adaptada a escritorio y móvil.
 
 La home utiliza una imagen generada de un equipo celebrando un título, con el trofeo sobre el césped y espacio oscuro para el titular. El archivo WebP local incluye encuadres adaptados a escritorio y móvil.
+
+Fútbol 5 incorpora un hero generado propio: equipo naranja y negro celebrando en un pabellón cubierto de fútbol sala, con trofeo en el suelo y encuadre adaptado a móvil.
