@@ -81,3 +81,5 @@ Liga de Medios utiliza una imagen generada de rueda de prensa con jugador fictic
 Fútbol 7 utiliza un hero generado con dos rivales disputando un balón sobre césped artificial exterior, con imagen WebP local y encuadres para escritorio y móvil.
 
 Liga Empresas utiliza un hero generado con cuatro compañeros vestidos con traje celebrando una victoria, con encuadres para escritorio y móvil y la sección de logos inmediatamente debajo.
+
+La selección de ligas de la home muestra cuatro tarjetas anchas en dos columnas, utiliza las imágenes generadas de los heroes de cada liga y prescinde de las etiquetas 07, 05, FE y FM. En móvil pasa a una columna.
