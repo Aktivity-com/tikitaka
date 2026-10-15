@@ -87,3 +87,5 @@ La selección de ligas de la home muestra cuatro tarjetas anchas en dos columnas
 ## Vista audiovisual de operaciones
 
 `/operaciones#Vídeos%20y%20clips` muestra una demostración visual del circuito de grabaciones, sincronización con el acta, clips y revisión, votaciones y rankings. Incluye acceso desde Dashboard, filtros de ciudad/deporte/instalación, cuatro grabaciones ficticias y cinco clips de muestra fechados el 08/10/2026. La navegación entre fichas funciona localmente; la reproducción, subida, generación, publicación y votación reales no están conectadas. Los controles de subida y publicación están desactivados. La imagen del reproductor es ilustrativa, no una grabación de los jugadores nombrados.
+
+El Dashboard de operaciones presenta KPI visuales, progreso de preparación de la jornada, próximo partido, agenda en tarjetas, prioridades, instalaciones y actividad real de la sesión demo. Los indicadores se recalculan con los filtros, confirmaciones, asignaciones e incidencias. Se ha retirado el banner audiovisual y el título es Dashboard.
