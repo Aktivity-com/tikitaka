@@ -77,3 +77,5 @@ La home utiliza una imagen generada de un equipo celebrando un título, con el t
 Fútbol 5 incorpora un hero generado propio: equipo naranja y negro celebrando en un pabellón cubierto de fútbol sala, con trofeo en el suelo y encuadre adaptado a móvil.
 
 Liga de Medios utiliza una imagen generada de rueda de prensa con jugador ficticio, seis micrófonos de medios y photocall de Tiki Taka. El hero dispone de encuadres propios para escritorio y móvil.
+
+Fútbol 7 utiliza un hero generado con dos rivales disputando un balón sobre césped artificial exterior, con imagen WebP local y encuadres para escritorio y móvil.
